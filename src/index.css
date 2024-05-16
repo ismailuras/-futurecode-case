@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.header {
+  position: relative;
+}
+.navbar-nav .nav-item .nav-link {
+  padding: 46px 0;
+  color: #313131;
+}
+.navbar-nav .nav-item:hover .nav-link {
+  color: #000;
+}
+.navbar-nav .nav-item .mega-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 600px;
+  background-color: #fff;
+  border: 1px solid #d4d4d4;
+  display: none;
+}
+.navbar-nav .nav-item:hover .mega-menu {
+  display: block;
+}
+.navbar-nav .nav-item .big-button {
+  padding: 0 36px !important;
+  line-height: 47px;
+  background-color: #313131;
+  font-weight: 300;
+  border-radius: 7px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+}
+.navbar-nav .nav-item:hover .big-button {
+  background-color: #007bff;
+  color: #fff;
+}
