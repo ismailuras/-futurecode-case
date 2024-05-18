@@ -24,20 +24,20 @@ function Header() {
             id="navbarNavAltMarkup"
           >
             <ul className="navbar-nav align-items-center">
-              <li className="nav-item mx-3">
+              <li className="nav-item mx-lg-3">
                 <a className="nav-link big-button" aria-current="page" href="#">
                   Teklif Al
                 </a>
               </li>
-              <li className="nav-item mx-3">
+              <li className="nav-item mx-lg-3">
                 <a className="nav-link px-0 fw-semibold" href="#">
                   Kurumsal
                 </a>
                 <div className="mega-menu">
                   <div className="container">
                     <div className="row">
-                      <div className="col-9">
-                        <div className="row row-cols-4 mega-menu-items">
+                      <div className="col-lg-9">
+                        <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-4 mega-menu-items">
                           <div className="col">
                             <h4>Kurumsal</h4>
                             <ul>
@@ -115,7 +115,7 @@ function Header() {
                           </div>
                         </div>
                       </div>
-                      <div className="col-3">
+                      <div className="col-lg-3">
                         <a href="#" className="image-link">
                           <span className="title">
                             <span>Yeşil Lojistik</span>
@@ -136,22 +136,22 @@ function Header() {
                   </div>
                 </div>
               </li>
-              <li className="nav-item mx-3">
+              <li className="nav-item mx-lg-3">
                 <a className="nav-link px-0" href="#">
                   Lojitik Hizmetlerimiz
                 </a>
               </li>
-              <li className="nav-item mx-3">
+              <li className="nav-item mx-lg-3">
                 <a className="nav-link px-0" href="#">
                   İletişim
                 </a>
               </li>
-              <li className="nav-item mx-3">
+              <li className="nav-item mx-lg-3">
                 <a className="nav-link px-0" href="#">
                   Blog
                 </a>
               </li>
-              <li className="nav-item mx-3">
+              <li className="nav-item mx-lg-3">
                 <a className="nav-link px-0" href="#">
                   TR
                 </a>
