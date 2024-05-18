@@ -1,8 +1,7 @@
-# React + Vite
+### Future Code | Test Case
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Proje:** Future Code tarafından iletilen Figma tasarımı ReactJS ve Bootstrap5 ile tüm masaüstü ve mobil ekranlarda çalışacak şekilde kodlanmıştır.
 
-Currently, two official plugins are available:
+**Proje Kurulumu:** `npm install` komutu ile proje bağımlılıkları kurulduktan sonra `npm run dev` komutu ile çalışır.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Demo Link:** https://futurecode-case-eight.vercel.app/
