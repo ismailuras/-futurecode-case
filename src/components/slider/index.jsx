@@ -1,5 +1,5 @@
 import CustomSlider from "../swiper";
-import { slideData } from "./slideData";
+import { slideData } from "../../mocks/slideData";
 
 function Slider() {
   return <CustomSlider data={slideData} />;
