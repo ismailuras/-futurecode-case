@@ -359,7 +359,7 @@ ol {
   left: 30px;
   top: 25px;
   font-size: 23px;
-  word-spacing: 10vw;
+  word-spacing: 500px;
   color: #fff;
   -webkit-transform: translateX(0);
   transform: translateX(0);
@@ -390,4 +390,108 @@ ol {
 .services .service-card:hover .desc {
   -webkit-transform: translateX(0);
   transform: translateX(0);
+}
+
+@media (max-width: 1599.98px) {
+  .swiper {
+    height: calc(100vh - 116px);
+  }
+  .swiper-button-prev {
+    top: auto;
+    left: auto;
+    right: 160px;
+    bottom: 61px;
+  }
+  .swiper-button-next {
+    top: auto;
+    bottom: 61px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .header {
+    padding: 10px 0;
+  }
+  .header .navbar-toggler {
+    padding: 7px 9px;
+  }
+  .header .navbar-nav {
+    margin-top: 30px;
+  }
+  .header .navbar-nav .nav-item {
+    width: 100%;
+  }
+  .header .navbar-nav .nav-item .nav-link {
+    padding: 15px 0;
+    display: inline-block;
+  }
+  .header .navbar-nav .nav-item:hover .mega-menu {
+    position: relative;
+    border-left: 0;
+    border-right: 0;
+  }
+  .header .navbar-nav .nav-item .mega-menu .mega-menu-items {
+    row-gap: 30px;
+  }
+  .header .navbar-nav .nav-item .mega-menu .image-link > img {
+    height: 400px;
+    object-fit: cover;
+  }
+
+  .swiper {
+    height: calc(100vh - 76px);
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+  }
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    background-size: 30px 20px;
+  }
+  .swiper-pagination {
+    bottom: 36px !important;
+  }
+  .swiper-pagination-bullet {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media (max-width: 767.98px) {
+  .swiper-slide .content div {
+    padding: 0;
+  }
+  .swiper-slide .content div::before {
+    display: none;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+  .swiper-pagination {
+    text-align: center;
+    bottom: 26px !important;
+  }
+  .swiper-pagination-bullet {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width: 575.98px) {
+  .swiper-slide .content {
+    padding-top: 100px;
+    text-align: center;
+  }
+  .swiper-slide .content h2 {
+    font-size: 32px;
+  }
+  .swiper-slide .content p {
+    font-size: 16px;
+  }
+  .swiper-slide .content a {
+    margin-top: 30px;
+    padding: 15px 30px;
+  }
 }

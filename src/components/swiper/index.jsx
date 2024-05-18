@@ -28,7 +28,7 @@ function CustomSlider({ data }) {
             </div>
             <div className="container" data-swiper-parallax={800}>
               <div className="row">
-                <div className="col-6">
+                <div className="col-xl-6">
                   <div className="content">
                     <div>
                       <h2>{slideItem.title}</h2>
